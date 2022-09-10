@@ -5,10 +5,8 @@ class AppearElement {
         this.elements.forEach(ele => {
             ele.classList.add('appear-element')
             if (this.isActive(ele)) {
-                print(1, ele)
                 ele.classList.add('active');
             } else {
-                print(2, ele)
                 ele.classList.remove('active');
             }
         });
