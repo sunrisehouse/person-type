@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 #section-introduction.appear-element {
-    transition: opacity 3s ease 0s;
+    transition: opacity 4s ease 0s;
     opacity: 0;
 }
 #section-introduction.appear-element.active {
