@@ -14,9 +14,10 @@ body {
 #section-introduction {
     padding: 120px 20px 200px;
     box-sizing: border-box;
+    opacity: 0;
 }
 #section-introduction.appear-element {
-    transition: opacity 4s ease 0s;
+    transition: opacity 3s ease 0s;
     opacity: 0;
 }
 #section-introduction.appear-element.active {
