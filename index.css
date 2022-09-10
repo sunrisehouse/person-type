@@ -39,6 +39,17 @@ body {
     line-height: 1.5;
     color: #666666;
 }
+@media (min-width: 1000px) {
+    #section-introduction {
+        padding: 240px 20px 400px;
+    }
+    #section-introduction h2 {
+        font-size: 40px;
+    }
+    #section-introduction p {
+        font-size: 16px;
+    }
+}
 
 /* Question Section */
 #section-question {
@@ -84,4 +95,23 @@ body {
     font-weight: 600;
     font-size: 14px;
     line-height: 1.5;
+}
+@media (min-width: 1000px) {
+    #section-question .tooltip {
+        font-size: 14px;
+        /* padding: 240px 20px 400px; */
+    }
+    #section-question h2 {
+        font-size: 40px;
+    }
+    #section-question #question-box-container {
+        display: flex;
+    }
+    #section-question .box {
+        padding: 40px;
+        flex: 1;
+    }
+    #section-question .box p {
+        font-size: 16px;
+    }
 }
